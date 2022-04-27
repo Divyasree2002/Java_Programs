@@ -5,7 +5,7 @@ public class _05_Percentage {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("enter the total marks");
-    int outOf = sc.nextInt();
+    float outOf = sc.nextFloat();  //can also be int
     System.out.println("enter your 5 subjects marks");
     float sub1 = sc.nextFloat();
     float sub2 = sc.nextFloat();
